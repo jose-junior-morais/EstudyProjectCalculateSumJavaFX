@@ -18,13 +18,9 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lbResultSum" layoutX="150.0" layoutY="227.0" prefHeight="27.0" prefWidth="4.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
       <TextField fx:id="txtNumber1" layoutX="114.0" layoutY="90.0" promptText="Firyst Number" />
       <TextField fx:id="txtNumber2" layoutX="114.0" layoutY="138.0" promptText="Secund Number" />
-      <Button fx:id="sum" layoutX="140.0" layoutY="178.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="25.0" prefWidth="98.0" text="Sum" />
+      <Button fx:id="btnSum" layoutX="140.0" layoutY="178.0" mnemonicParsing="false" onAction="#onBtnAction" prefHeight="25.0" prefWidth="98.0" text="Sum" />
+      <Label fx:id="lbResultSum" layoutX="150.0" layoutY="232.0" text="Label" />
    </children>
 </AnchorPane>
